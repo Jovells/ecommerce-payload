@@ -27,6 +27,5 @@ export default buildConfig({
   plugins: [payloadCloud()],
   db: mongooseAdapter({
     url: process.env.DATABASE_URI,
-  }),
-  serverURL: process.env.PAYLOAD_PUBLIC_BASE_DNS,
+  })
 })
